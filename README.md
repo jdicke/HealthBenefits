@@ -9,4 +9,4 @@ Menu Screen:
 ![Menu Screen](https://github.com/jdicke/HealthBenefits/blob/master/health_1.png)
 
 Picking an option:
-![Option Example](![Menu Screen](https://github.com/jdicke/HealthBenefits/blob/master/health_2.png)
+![Option Example](https://github.com/jdicke/HealthBenefits/blob/master/health_2.png)
