@@ -20,7 +20,7 @@ public:
 		std::cout << "1. High in Fiber - Fights Diabetes" << std::endl;
 		std::cout << "2. Bone Health" << std::endl;
 		std::cout << "3. Helps Maintain Low Blood Pressure" << std::endl;
-		std::cout << "4. Hearth Health" << std::endl;
+		std::cout << "4. Heart Health" << std::endl;
 		std::cout << "5. Helps with sleep, muscle movement, leaerning, memory" << std::endl;
 		std::cout << "\n-----------------------------------\n" << std::endl;
 	}
