@@ -9,6 +9,14 @@
 #include "Beets.cpp"
 #include "Banana.cpp"
 #include "Oranges.cpp"
+#include "ChiaSeeds.cpp"
+#include "Pineapple.cpp"
+#include "Granola.cpp"
+#include "Spinach.cpp"
+#include "GarbanzoBeans.cpp"
+#include "Mushroom.cpp"
+#include "Tofu.cpp"
+#include "Oatmeal.cpp"
 
 int main()
 {
@@ -21,10 +29,19 @@ int main()
 	Beets beet;
 	Banana banana;
 	Oranges orange;
+	ChiaSeeds chia;
+	Pineapple pineapple;
+	Granola granola;
+	Spinach spinach;
+	GarbanzoBeans garbanzobeans;
+	Mushroom mushroom;
+	Tofu tofu;
+	Oatmeal oatmeal;
 
 	int counter = 1, input = 1;
 
-	Food *foodList[] = { &a, &b, &beet, &banana, &orange };
+	Food *foodList[] = { &a, &b, &beet, &banana, &orange, &chia, &pineapple, &granola, 
+						&spinach, &garbanzobeans, &mushroom, &tofu, &oatmeal };
 
 	for (Food *food : foodList) {
 		std::cout << counter << ".\t" << food->getFood() << std::endl;
