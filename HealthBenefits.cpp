@@ -17,6 +17,7 @@
 #include "Mushroom.cpp"
 #include "Tofu.cpp"
 #include "Oatmeal.cpp"
+#include "Grapefruit.cpp"
 
 int main()
 {
@@ -37,11 +38,12 @@ int main()
 	Mushroom mushroom;
 	Tofu tofu;
 	Oatmeal oatmeal;
+	Grapefruit grapefruit;
 
 	int counter = 1, input = 1;
 
 	Food *foodList[] = { &a, &b, &beet, &banana, &orange, &chia, &pineapple, &granola, 
-						&spinach, &garbanzobeans, &mushroom, &tofu, &oatmeal };
+						&spinach, &garbanzobeans, &mushroom, &tofu, &oatmeal, &grapefruit };
 
 	for (Food *food : foodList) {
 		std::cout << counter << ".\t" << food->getFood() << std::endl;
